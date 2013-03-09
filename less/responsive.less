@@ -1,0 +1,331 @@
+/* =Media queries
+-------------------------------------------------------------- */
+
+/* Smartphone width */
+@media screen and (min-width: 320px) {
+
+
+.logo {
+		text-align: left;
+		margin-bottom: 10px;
+		
+		img {
+			max-width: 200px;
+			height: auto;
+		}
+}
+
+	.main-navigation {
+		position: absolute;
+		right: 0;
+		top: 35px;
+		text-align: right;
+		
+		ul.toggled-on {
+			text-align: left;
+			background: #fff;
+			border: 1px solid #d2d2d2;
+			border-radius: 3px;
+			border-top-right-radius: 0;
+			padding: 0 15px 10px;
+			
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+	.assistive-text {
+		display: none;
+	}
+	
+	
+	.site-header h1 {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+	.site-header h2 {
+		font-size: 16px;
+		font-size: 1rem;
+	}
+	
+	
+
+	.three-boxes .widget {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	body.full-width .entry-content {
+		-moz-column-count: 1;
+		-moz-column-gap: 0rem;
+		-webkit-column-count: 1;
+		-webkit-column-gap: 0rem;
+		column-count: 1;
+		column-gap: 0rem;
+		}
+}
+
+/* Minimum width of 600 pixels. */
+@media screen and (min-width: 600px) {
+	.author-avatar {
+		float: left;
+		margin-top: 8px;
+		margin-top: 0.571428571rem;
+	}
+	.author-description {
+		float: right;
+		width: 80%;
+	}
+	.site {
+		margin: 0 auto;
+		max-width: 960px;
+		max-width: 68.571428571rem;
+		overflow: hidden;
+	}
+	.site-content {
+		float: left;
+		width: 65.104166667%;
+	}
+	body.template-front-page .site-content,
+	body.single-attachment .site-content,
+	body.full-width .site-content {
+		width: 100%;
+	}
+	
+	body.full-width .entry-content {
+		-moz-column-count: 2;
+		-moz-column-gap: 3rem;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 3rem;
+		column-count: 2;
+		column-gap: 3rem;
+	}
+	.widget-area {
+		float: right;
+		width: 26.041666667%;
+	}
+	
+	.site-header h1 {
+		font-size: 32px;
+		font-size: 2rem;
+	}
+	.site-header h2 {
+		font-size: 20px;
+		font-size: 1.25rem;
+	}
+	
+	
+	.logo {
+		text-align: center;
+		
+		img {
+			max-width: 200px;
+			height: auto;
+		}
+	}
+	
+	.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+/* 		border-bottom: 1px solid #ededed; */
+/* 		border-top: 1px solid #ededed; */
+		display: inline-block !important;
+/* 		text-align: left; */
+		width: 100%;
+	}
+	
+	.main-navigation {
+		position: static;
+		text-align: center;
+	}
+	.main-navigation ul {
+		margin: 0;
+		text-indent: 0;
+	}
+	.main-navigation li a,
+	.main-navigation li {
+		display: inline-block;
+		text-decoration: none;
+	}
+	.main-navigation li a {
+		line-height: 58px;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+	.main-navigation li {
+		margin: 0 8px 0;
+		margin: 0 0.5rem 0;
+		position: relative;
+	}
+	.main-navigation li ul {
+		display: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 100%;
+		z-index: 1;
+	}
+	.main-navigation li ul ul {
+		top: 0;
+		left: 100%;
+	}
+	.main-navigation ul li:hover > ul {
+		border-left: 0;
+		display: block;
+	}
+	.main-navigation li ul li a {
+		background: #efefef;
+		border-bottom: 1px solid #ededed;
+		display: block;
+		font-size: 11px;
+		font-size: 0.785714286rem;
+		line-height: 2.181818182;
+		padding: 8px 10px;
+		padding: 0.571428571rem 0.714285714rem;
+		width: 180px;
+		width: 12.85714286rem;
+		white-space: normal;
+	}
+	.main-navigation li ul li a:hover {
+		background: #e3e3e3;
+		color: #444;
+	}
+	.menu-toggle {
+		display: none;
+	}
+	.entry-header .entry-title {
+		
+	}
+	#respond form input[type="text"] {
+		width: 46.333333333%;
+	}
+	#respond form textarea.blog-textarea {
+		width: 79.666666667%;
+	}
+	.template-front-page .site-content,
+	.template-front-page article {
+		overflow: hidden;
+	}
+	.template-front-page.has-post-thumbnail article {
+		float: left;
+		width: 47.916666667%;
+	}
+	.entry-page-image {
+		float: right;
+		margin-bottom: 0;
+		width: 47.916666667%;
+	}
+	.template-front-page .widget-area .widget,
+	.template-front-page.two-sidebars .widget-area .front-widgets {
+		float: left;
+		width: 51.875%;
+		margin-bottom: 24px;
+		margin-bottom: 1.714285714rem;
+	}
+	.template-front-page .widget-area .widget:nth-child(odd) {
+		clear: right;
+	}
+	.template-front-page .widget-area .widget:nth-child(even),
+	.template-front-page.two-sidebars .widget-area .front-widgets + .front-widgets {
+		float: right;
+		width: 39.0625%;
+		margin: 0 0 24px;
+		margin: 0 0 1.714285714rem;
+	}
+	.template-front-page.two-sidebars .widget,
+	.template-front-page.two-sidebars .widget:nth-child(even) {
+		float: none;
+		width: auto;
+	}
+	.commentlist .children {
+		margin-left: 48px;
+		margin-left: 3.428571429rem;
+	}
+	
+	.three-boxes .widget {
+		width: 48.717948717948715%;
+		margin-left: 2.564102564102564%;
+		float: left;
+		font-size: 16px;
+		font-size: 1rem;
+	}
+	.three-boxes .widget:first-child,
+	.three-boxes .widget:last-child {
+		margin-left: 0;
+	}
+	/*
+.three-boxes .widget:last-child {
+		width: 100%;
+	}
+*/
+}
+
+/* Minimum width of 960 pixels. */
+@media screen and (min-width: 960px) {
+	body {
+		background-color: #e6e6e6;
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+	body .site {
+		padding: 0 40px;
+		padding: 0 2.857142857rem;
+		margin-bottom: 48px;
+		margin-bottom: 3.428571429rem;
+		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	}
+	body.custom-background-empty {
+		background-color: #fff;
+	}
+	body.custom-background-empty .site,
+	body.custom-background-white .site {
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		box-shadow: none;
+	}
+	
+	.logo {
+		margin-right: 80px;
+		text-align: left;
+		margin-bottom: 10px;
+		
+		img {
+			max-width: 230px;
+			height: auto;
+		}
+	}
+	
+	.main-navigation {
+		
+		li {
+			margin: 0 32px 0 0;
+			margin: 0 2rem 0 0;
+			position: relative;
+		}
+	}
+	
+	.site-header h1 {
+		font-size: 48px;
+		font-size: 3rem;
+	}
+	.site-header h2 {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+	
+	/* 3 Boxen Startseite */
+
+	.three-boxes .widget {
+		width: 31.623931623931625%;
+		margin-left: 2.564102564102564%;
+		font-size: 16px;
+		font-size: 1rem;
+	}
+	.three-boxes .widget:first-child {
+	margin-left: 0;
+	}
+	.three-boxes .widget:last-child {
+		margin-left: 2.564102564102564%;
+	}
+}
+
