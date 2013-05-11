@@ -1,0 +1,46 @@
+/* Navigation Menu
+-------------------------------------------------------------- */
+.main-navigation {
+	text-align: center;
+	z-index: 1000;
+	.sans-serif;
+	
+	li {
+		margin-top: 16px;
+		margin-top: 1rem;
+		font-size: 16px;
+		font-size: 1rem;
+		line-height: 1.2;
+		font-weight: 700;
+	}
+	a {
+		color: @linkNav;
+		border-bottom: 3px solid #fff;
+	
+		&:hover {
+			color: @linkColor;
+			border-bottom: 3px solid @linkColor;
+		}
+	}
+	.current-menu-item a {
+		color: @linkActive;
+	}
+	ul.nav-menu {
+		text-align: center;
+	}
+}
+
+ul.nav-menu,
+	div.nav-menu > ul {
+		display: none;
+	}
+
+ul.nav-menu.toggled-on,
+	.menu-toggle {
+		display: inline-block;
+	}
+	
+h3.menu-toggle {
+	text-align: right;
+}
+	
