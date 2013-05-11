@@ -28,13 +28,14 @@
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
-<?php /* -- LESS CSS -- */
-  require "lib/lessphp/lessc.inc.php";
-  $less = new lessc;
-  //$less->checkedCompile(get_stylesheet_directory().'/style.less', get_stylesheet_directory().'/style-min.css');
-  $cache = $less->cachedCompile(get_stylesheet_directory().'/style.less');
-  file_put_contents(get_stylesheet_directory().'/style-min.css', $cache["compiled"]);
-/* -- END LESS CSS -- */ ?>
+<?php /* -- LESSPHP -- */
+	// start uncomment here, if you want to use lessphp. For more infos visit http://leafo.net/lessphp/
+ // require "lib/lessphp/lessc.inc.php";
+ // $less = new lessc;
+ // $less->setPreserveComments(true);
+ // $cache = $less->cachedCompile(get_stylesheet_directory().'/style.less');
+ // file_put_contents(get_stylesheet_directory().'/style-min.css', $cache["compiled"]);
+/* -- END LESSPHP -- */ ?>
 <?php wp_head(); ?>
 <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_directory')?>/style-min.css" type="text/css" media="all">
 </head>
