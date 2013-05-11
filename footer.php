@@ -6,7 +6,7 @@
  * #main and #page div elements.
  *
  * @package WordPress
- * @subpackage Twenty_Twelve
+ * @subpackage Barcamp
  * @since Twenty Twelve 1.0
  */
 ?>

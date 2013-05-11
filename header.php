@@ -5,7 +5,7 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage Twenty_Twelve
+ * @subpackage Barcamp
  * @since Twenty Twelve 1.0
  */
 ?><!DOCTYPE html>
