@@ -34,7 +34,7 @@
 	
 		<div class="site-info">
 			<div class="credits">
-				<a href="http://denniserdmann.de/bc-theme">BarCamp-Theme</a> powered by
+				<a href="http://denniserdmann.de/barcamp-wordpress-theme/">BarCamp-Theme</a> powered by
 				<a href="http://de.wordpress.org" title="Semantic Personal Publishing Platform">Wordpress</a>
 			</div>
 			<div class="copyright">

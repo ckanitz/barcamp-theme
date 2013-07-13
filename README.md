@@ -15,5 +15,6 @@ Attribution is not necessary but will be appreciated.
 
 ## Usage:
 This theme is optimized for using LESS. There are 2 options make use of it:
+
 1. activate lessphp by uncommenting the marked couple of lines in header.php. Also make sure that style-min.css has writing permissions (777) and edit the files in the `less-folder`
 2. use tools like codekit or livereload to compile the style-min.css by your own.
