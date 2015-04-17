@@ -2,9 +2,6 @@
 .DS_Store
 Thumbs.db
 
-# Ignore compiled css-file
-style-min.css
-
 # Do not ignore ".gitignore"
 !.gitignore
 !README.md
