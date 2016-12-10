@@ -24,20 +24,8 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
-<!--[if lt IE 9]>
-<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
-<![endif]-->
-<?php /* -- LESSPHP -- */
-	// start uncomment here, if you want to use lessphp. For more infos visit http://leafo.net/lessphp/
- // require "lib/lessphp/lessc.inc.php";
- // $less = new lessc;
- // $less->setPreserveComments(true);
- // $cache = $less->cachedCompile(get_stylesheet_directory().'/style.less');
- // file_put_contents(get_stylesheet_directory().'/style-min.css', $cache["compiled"]);
-/* -- END LESSPHP -- */ ?>
 <?php wp_head(); ?>
-<link rel="stylesheet" href="<?php echo bloginfo('stylesheet_directory')?>/style-min.css" type="text/css" media="all">
+<link rel="stylesheet" href="<?php echo bloginfo('stylesheet_directory')?>/style.css" type="text/css" media="all">
 </head>
 
 <body <?php body_class(); ?>>
