@@ -28,7 +28,7 @@
 <link rel="stylesheet" href="<?php echo bloginfo('stylesheet_directory')?>/style.css" type="text/css" media="all">
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('vernissage'); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 	<div class="logo">

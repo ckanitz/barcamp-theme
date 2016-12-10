@@ -22,7 +22,7 @@
  * @since Twenty Twelve 1.0
  */
 
-
+/*
 function barcamp_widgets_init() {
 	register_sidebar( array(
 		'name' => __( 'Main Sidebar', 'twentytwelve' ),
@@ -54,4 +54,11 @@ function barcamp_widgets_init() {
 		'after_title' => '</h3>',
 	) );
 }
-add_action( 'widgets_init', 'barcamp_widgets_init' );
+add_action( 'widgets_init', 'barcamp_widgets_init' );/**/
+
+
+/*
+ * Include needed files from the inc directory
+ */
+foreach ( glob( dirname( __FILE__ )."/inc/*.php" ) as $file )
+    require_once( $file );
